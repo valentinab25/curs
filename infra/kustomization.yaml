@@ -3,3 +3,6 @@ kind: Kustomization
 resources:
 - metrics-server-app.yaml
 - ingress-nginx-app.yaml
+- kubernetes-event-exporter-app.yaml
+- sealed-secrets-app.yaml
+- cnpg-app.yaml
